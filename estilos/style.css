@@ -72,11 +72,12 @@ p {
 
 div.campo > input {
     font-size: 1em;
-    width: calc(90% - 45px);
+    width: calc(100% - 45px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
-    transform: translateY(-20px);
+    
+    transform: translateY(-12px);
 
 }
 
