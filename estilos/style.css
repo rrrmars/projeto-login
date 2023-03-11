@@ -72,13 +72,17 @@ p {
 
 div.campo > input {
     font-size: 1em;
-    width: calc(100% - 42px);
+    width: calc(100% - 45px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     
     transform: translateY(-12px);
 
+}
+
+input:focus-within {
+    outline: white;
 }
 
 
@@ -144,3 +148,6 @@ a.botao:hover {
     border: none;
     color: white;
 }
+
+
+
